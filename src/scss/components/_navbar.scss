@@ -1,0 +1,90 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.navbar {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+  background-color: v.$bgColor;
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.navbar-container {
+  height: 11.5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  .logo {
+    color: v.$principalColor;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .menuButton {
+    border-style: none;
+    background-color: transparent;
+    display: none;
+    font-size: 3.5rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @include m.tablet {
+      display: block;
+    }
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all .3s ease;
+
+    @include m.tablet {
+      flex-direction: column;
+      background-color: v.$darkGray;
+      position: absolute;
+      top: 8.7rem;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+      transform: translateX(-200%);
+    }
+
+    .navbar-item {
+      padding: 0 2rem;
+
+      .navbar-link {
+        color: v.$gray;
+        transition: color .3s ease;
+
+        &:hover {
+          color: v.$black;
+        }
+      }
+
+      @include m.tablet {
+        padding: 2rem 0;
+
+        .navbar-link {
+          color: v.$white;
+
+          &:hover {
+            color: v.$gray;
+          }
+        }
+
+      }
+    }
+
+    &.showNav {
+      transform: translateX(0);
+    }
+  }
+}

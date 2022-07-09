@@ -36,7 +36,6 @@ function javascript() {
 
 function img() {
 	return src(paths.img)
-		.pipe(cache(squoosh()))
 		.pipe( webp() )
 		.pipe(dest('public/build/img'))
 		.pipe(notify({ message: 'Imagen Completada'}));
@@ -50,4 +49,4 @@ function watchArchives() {
 
 exports.css = css;
 exports.watch = watchArchives;
-exports.default = parallel(css, javascript,  img,  watchArchivos ); 
+exports.default = parallel(css, javascript,  img,  watchArchives ); 
