@@ -9,10 +9,11 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 5rem;
 }
 h2 {
-	font-size: 3rem;
+	font-size: 5rem;
+	margin-bottom: 5rem;
 }
 h3 {
 	font-size: 2rem;
@@ -26,10 +27,10 @@ p {
 	margin: 0;
 }
 
-.title{
-	font-size: 5rem;
-}
-
 .tx-start{
 	text-align: start;
+}
+
+.margin-bottom-none{
+	margin-bottom: 0;
 }

@@ -4,6 +4,7 @@
 .navbar {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
   background-color: v.$bgColor;
+  z-index: 3;
 
   &.sticky {
     position: fixed;

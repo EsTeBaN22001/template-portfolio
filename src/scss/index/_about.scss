@@ -3,6 +3,10 @@
 
 .about {
 
+  h2{
+    margin-bottom: 0;
+  }
+
   .about-text-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -56,14 +60,23 @@
       }
 
       h2,
-      p,
-      a {
+      p {
         color: v.$white;
         text-align: start;
       }
 
+      h2{font-size: 3rem}
+
       a{
         color: v.$principalColor;
+        border-bottom: .3rem solid transparent;
+        width: auto;
+        transition: all .3s ease;
+
+        &:hover{
+          color: v.$white;
+          border-bottom: .3rem solid v.$principalColor;
+        }
       }
     }
   }
