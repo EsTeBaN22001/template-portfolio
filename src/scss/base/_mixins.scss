@@ -37,24 +37,22 @@
 
 
 @mixin button($bgColor, $textColor) {
-	background-color: $bgColor;
+	display: block;
+	width: 50%;
 	padding: 1.5rem 4rem;
+	margin: 0 auto;
+	background-color: $bgColor;
 	color: $textColor;
 	margin-top: 2rem;
 	font-size: 2rem;
 	font-weight: 400;
-	display: inline-block;
 	font-weight: 700;
-	border: none;
-	transition-property: background-color;
-	transition-duration: .3s;
 	text-align: center;
-	display: block;
-	width: 100%;
-	margin: 5rem 0;
+	border: none;
+	transition: background-color .3s ease;
 
 	@include tablet {
-		width: auto;
+		width: 100%;
 	}
 	&:hover {
 		background-color: darken( $bgColor, 10% );

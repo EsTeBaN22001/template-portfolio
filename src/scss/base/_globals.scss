@@ -45,7 +45,11 @@ a {
 ul, li{
 	list-style: none;
 }
-
 img {
 	max-width: 100%;
+}
+label, input, textarea{
+	&:focus{
+		outline: none;
+	}
 }

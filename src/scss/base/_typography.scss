@@ -18,7 +18,7 @@ h2 {
 h3 {
 	font-size: 2rem;
 }
-p {
+p, label, input, textarea{
 	font-size: 2rem;
 	color: v.$mediumGray;
 	font-weight: 100;

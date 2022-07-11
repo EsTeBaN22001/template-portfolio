@@ -139,64 +139,93 @@
   <div class="events container-sm">
     <h2>Events & News</h2>
     <div class="events-container">
-      <article class="event event1">
-        <div class="img-container">
-          <img src="build/img/events1.webp" alt="Event image">
-          <div class="tag">
-            <p>New</p>
+      <article>
+        <a class="event event1" href="#">
+          <div class="img-container">
+            <img src="build/img/events1.webp" alt="Event image">
+            <div class="tag">
+              <p>New</p>
+            </div>
           </div>
-        </div>
-        <div class="event-text">
-          <h3>Event title</h3>
-          <div class="date">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>San Luis, Argentina.</p>
+          <div class="event-text">
+            <h3>Event title</h3>
+            <div class="date">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>San Luis, Argentina.</p>
+            </div>
+            <div class="time">
+              <i class="fa-regular fa-clock"></i>
+              <p>6 hours ago.</p>
+            </div>
           </div>
-          <div class="time">
-            <i class="fa-regular fa-clock"></i>
-            <p>6 hours ago.</p>
-          </div>
-        </div>
+        </a>
       </article>
-      <article class="event event2">
-        <div class="event-text">
-          <h3>Event title</h3>
-          <div class="date">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>San Luis, Argentina.</p>
+      <article>
+        <a class="event event2" href="#">
+          <div class="event-text">
+            <h3>Event title</h3>
+            <div class="date">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>San Luis, Argentina.</p>
+            </div>
+            <div class="time">
+              <i class="fa-regular fa-clock"></i>
+              <p>6 hours ago.</p>
+            </div>
           </div>
-          <div class="time">
-            <i class="fa-regular fa-clock"></i>
-            <p>6 hours ago.</p>
+          <div class="img-container">
+            <img src="build/img/events2.webp" alt="Event image">
+            <div class="tag">
+              <p>Event</p>
+            </div>
           </div>
-        </div>
-        <div class="img-container">
-          <img src="build/img/events2.webp" alt="Event image">
-          <div class="tag">
-            <p>Event</p>
-          </div>
-        </div>
+        </a>
       </article>
-      <article class="event event3">
-        <div class="img-container">
-          <img src="build/img/events3.webp" alt="Event image">
-          <div class="tag">
-            <p>New</p>
+      <article>
+        <a class="event event3" href="#">
+          <div class="img-container">
+            <img src="build/img/events3.webp" alt="Event image">
+            <div class="tag">
+              <p>New</p>
+            </div>
           </div>
-        </div>
-        <div class="event-text">
-          <h3>Event title</h3>
-          <div class="date">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>6 hours ago.</p>
+          <div class="event-text">
+            <h3>Event title</h3>
+            <div class="date">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>6 hours ago.</p>
+            </div>
+            <div class="time">
+              <i class="fa-regular fa-clock"></i>
+              <p>San Luis, Argentina.</p>
+            </div>
           </div>
-          <div class="time">
-            <i class="fa-regular fa-clock"></i>
-            <p>San Luis, Argentina.</p>
-          </div>
-        </div>
+        </a>
       </article>
     </div>
+  </div>
+</section>
+
+<section class="contact-container section container-sm">
+  <div class="contact">
+    <h2>Contáctanos</h2>
+    <form action="/" class="form" method="POST" >
+      <div class="field field-name">
+        <label for="name">Nombre <sup>*</sup></label>
+        <input type="text" id="name" name="name" placeholder="Nombre completo">
+      </div>
+      <div class="field field-email">
+        <label for="email">Email <sup>*</sup></label>
+        <input type="email" id="email" name="email" placeholder="Correo electrónico">
+      </div>
+      <div class="field field-msg">
+        <label for="msg">Mensaje <sup>*</sup></label>
+        <textarea name="msg" id="msg" placeholder="Escribe tu mensaje"></textarea>
+      </div>
+      <div class="field field-submit">
+        <button type="submit" class="submit-button">Enviar</button>
+      </div>
+    </form>
   </div>
 </section>
 

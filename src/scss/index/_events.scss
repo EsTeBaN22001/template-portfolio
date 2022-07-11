@@ -12,6 +12,8 @@
     flex: 0 0 auto;
     width: 60%;
     position: relative;
+
+    @include m.phone{width: 40%;}
     
     img{
       border-radius: 2rem;
@@ -33,12 +35,25 @@
         color: v.$white;
         font-weight: 700;
       }
+
+      @include m.phone{
+        padding: .5rem;
+        top: .5rem;
+        left: .5rem;
+
+        p{
+          font-weight: 500;
+          font-size: 1.5rem;
+        }
+      }
     }
   }
 
   .event-text{
     flex: 0 0 auto;
     width: 40%;
+
+    @include m.phone{width: 60%;}
 
     h3{
       font-size: 3rem;
