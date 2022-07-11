@@ -1,0 +1,119 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.event{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+
+  .img-container{
+    flex: 0 0 auto;
+    width: 60%;
+    position: relative;
+    
+    img{
+      border-radius: 2rem;
+      max-height: 30rem;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .tag{
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background-color: v.$principalColor;
+      padding: 1rem;
+      border-radius: 1rem;
+
+      p{
+        color: v.$white;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .event-text{
+    flex: 0 0 auto;
+    width: 40%;
+
+    h3{
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+    .date, .time{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 2rem;
+      color: v.$mediumGray;
+    }
+  }
+
+  &.event1{
+    .tag{
+      background-color: v.$principalScale1;
+    }
+
+    h3{
+      color: v.$principalScale1;
+      text-align: start;
+    }
+
+    .date, .time{
+      color: v.$principalScale1;
+
+      p{
+        color: v.$mediumGray;
+      }
+    }
+  }
+
+  &.event2{
+
+    .event-text{
+
+      h3{
+        color: v.$principalScale3;
+        text-align: end;
+      }
+  
+      .date, .time{
+        color: v.$principalScale3;
+        justify-content: end;
+  
+        p{
+          color: v.$mediumGray;
+          text-align: end;
+        }
+      }
+    }
+
+    .tag{
+      background-color: v.$principalScale3;
+    }
+  }
+
+  &.event3{
+    .tag{
+      background-color: v.$principalScale6;
+    }
+
+    h3{
+      color: v.$principalScale6;
+      text-align: start;
+    }
+
+    .date, .time{
+      color: v.$principalScale6;
+
+      p{
+        color: v.$mediumGray;
+      }
+    }
+  }
+}

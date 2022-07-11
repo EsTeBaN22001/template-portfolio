@@ -135,6 +135,71 @@
 
 </section>
 
+<section class="events section container-sm">
+  <div class="events container-sm">
+    <h2>Events & News</h2>
+    <div class="events-container">
+      <article class="event event1">
+        <div class="img-container">
+          <img src="build/img/events1.webp" alt="Event image">
+          <div class="tag">
+            <p>New</p>
+          </div>
+        </div>
+        <div class="event-text">
+          <h3>Event title</h3>
+          <div class="date">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>San Luis, Argentina.</p>
+          </div>
+          <div class="time">
+            <i class="fa-regular fa-clock"></i>
+            <p>6 hours ago.</p>
+          </div>
+        </div>
+      </article>
+      <article class="event event2">
+        <div class="event-text">
+          <h3>Event title</h3>
+          <div class="date">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>San Luis, Argentina.</p>
+          </div>
+          <div class="time">
+            <i class="fa-regular fa-clock"></i>
+            <p>6 hours ago.</p>
+          </div>
+        </div>
+        <div class="img-container">
+          <img src="build/img/events2.webp" alt="Event image">
+          <div class="tag">
+            <p>Event</p>
+          </div>
+        </div>
+      </article>
+      <article class="event event3">
+        <div class="img-container">
+          <img src="build/img/events3.webp" alt="Event image">
+          <div class="tag">
+            <p>New</p>
+          </div>
+        </div>
+        <div class="event-text">
+          <h3>Event title</h3>
+          <div class="date">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>6 hours ago.</p>
+          </div>
+          <div class="time">
+            <i class="fa-regular fa-clock"></i>
+            <p>San Luis, Argentina.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
 <?php
 
 $script = '
