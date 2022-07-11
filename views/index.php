@@ -1,7 +1,92 @@
 <div class="about-container container-sm section">
   <div class="about">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea officiis ratione quasi ab laboriosam adipisci ad, provident minus, voluptatum sunt modi illo deserunt temporibus dolor rerum maxime? Reprehenderit accusantium molestias, repellendus similique repellat aperiam distinctio nulla voluptatum esse perferendis porro? Culpa voluptate numquam impedit. Eaque praesentium autem aliquam natus minima repellat perspiciatis vero sequi porro commodi ipsum, nam eligendi quod voluptate adipisci dolor officiis tenetur libero. Ex perspiciatis error, maxime incidunt dignissimos sapiente quaerat, at et omnis maiores qui beatae. At dignissimos et alias veritatis fuga cum, numquam voluptatem animi? Vel aut accusantium incidunt rerum culpa laudantium sit possimus non!
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non culpa rem a enim, odio ratione natus repudiandae reprehenderit eum laboriosam rerum, quaerat, suscipit aperiam eos. Delectus error dolorum, amet porro ab natus at saepe deserunt obcaecati repellendus hic quis iusto reiciendis adipisci! Ex corrupti, asperiores tempora nam consequuntur fugiat minima expedita odit ducimus in quibusdam, magni quisquam vitae eaque ullam sed rerum numquam nulla? Commodi voluptatum sit neque laudantium iste maiores pariatur recusandae architecto accusamus voluptas sequi laboriosam, officiis ad eius aspernatur voluptatem consequuntur provident adipisci velit sint molestiae cum excepturi mollitia? Rerum natus voluptas repudiandae vel reprehenderit veniam ipsam molestias eligendi, est deserunt. Amet suscipit quaerat laborum. Nihil animi praesentium dignissimos ad libero illo quibusdam. Perferendis voluptatum natus officia quidem labore, quasi consequatur non, illum consequuntur quae earum architecto ducimus exercitationem rem explicabo molestiae nisi nostrum illo culpa? Culpa natus, inventore reiciendis dolore magni unde provident dolores, minima quam consectetur modi repellendus praesentium voluptates repudiandae explicabo est ducimus voluptatum? At exercitationem quae fugiat reiciendis, totam amet similique ea quos soluta. Illum commodi totam, natus ut expedita nisi facere dolores laudantium illo, suscipit adipisci. Odio natus numquam quisquam ipsum, mollitia expedita aliquid repellat illo sit perferendis, cumque similique quam, facere debitis repudiandae qui doloribus ipsam consequuntur dolores maiores? Perferendis cupiditate autem nostrum doloribus inventore suscipit est corporis delectus iure. Repellat error molestias id quaerat? Eligendi ab nesciunt soluta accusamus, ipsa aliquid reiciendis, totam beatae laboriosam, doloremque facere voluptatem. Eaque cumque nostrum, doloribus eveniet ad, omnis dolorem minima, vitae eum ipsa quam? Architecto explicabo necessitatibus veritatis veniam commodi optio dolorum laboriosam nesciunt eaque voluptates ipsum non ab, consequuntur blanditiis mollitia adipisci excepturi asperiores rerum earum similique obcaecati quaerat quas? Blanditiis obcaecati velit quasi nam dolorem distinctio nihil non. Odio, cum tempora voluptatum nemo minus exercitationem laboriosam velit consequatur dolorum sint numquam voluptatem commodi esse itaque, inventore, fugiat vitae eum alias laborum eos dolore atque. Animi harum amet dolorum magnam? In, blanditiis non. Amet quam sit nulla ratione architecto dicta, aliquid at soluta nesciunt eius tenetur cupiditate assumenda repudiandae? Ad facere tempore velit ea rerum officiis, doloribus labore reprehenderit perspiciatis minima ipsum recusandae temporibus soluta sequi fuga repellat illum dolore quidem consectetur nam nihil saepe. Accusamus aspernatur veritatis, exercitationem velit fugiat quos labore nobis. Explicabo culpa provident soluta nesciunt omnis consequuntur, placeat recusandae, perferendis sequi et sapiente impedit accusamus. Nihil ut consequuntur esse labore fuga hic exercitationem a totam impedit. Reprehenderit consequatur natus ullam eaque doloremque ex nesciunt, itaque voluptatem voluptates optio inventore quae animi. Aliquid error, vitae beatae sed eos sint! Eaque recusandae, autem blanditiis delectus minima laudantium deleniti magni aperiam quia, consectetur perspiciatis voluptatibus tempora doloribus facilis modi! Voluptates enim, facere dolorem similique earum praesentium aut ex commodi asperiores optio minima velit vero odit illum veritatis perspiciatis, dicta eaque provident. Fugiat enim adipisci ratione cupiditate mollitia, corporis similique, quos delectus debitis laboriosam sapiente soluta earum ab magni sequi tenetur, eaque quasi molestiae provident sit doloribus repellat pariatur reprehenderit odit? Quaerat molestias veritatis libero, sunt adipisci assumenda ducimus eius non?
-    </p>
+    <h2 class="tx-start title">About title...</h2>
+    <div class="about-text-container">
+      <div class="text-column">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum aperiam distinctio sapiente quam laudantium id dolore, inventore repellendus velit, tempore labore tempora ipsa nostrum qui praesentium iusto vitae hic unde.</p>
+      </div>
+      <div class="text-column">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum aperiam distinctio sapiente quam laudantium id dolore, inventore repellendus velit, tempore labore tempora ipsa nostrum qui praesentium iusto vitae hic unde.</p>
+      </div>
+    </div>
   </div>
 </div>
+
+<section class="about-images section">
+  <div class="img-container"></div>
+  <div class="info-container">
+    <div class="info-content">
+      <h2>About subtitle...</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, veniam.</p>
+      <a href="#">Link</a>
+    </div>
+  </div>
+  <div class="carrousel-container">
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <div class="slide__content about-person-container">
+              <img src="build/img/person1.webp" alt="person1">
+              <div class="about-person person1">
+                <h3>Person1</h3>
+                <p>Sub title</p>
+              </div>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="slide__content about-person-container">
+              <img src="build/img/person2.webp" alt="person2">
+              <div class="about-person person2">
+                <h3>Person2</h3>
+                <p>Sub title</p>
+              </div>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="slide__content about-person-container">
+              <img src="build/img/person3.webp" alt="person3">
+              <div class="about-person person3">
+                <h3>Person3</h3>
+                <p>Sub title</p>
+              </div>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="slide__content about-person-container">
+              <img src="build/img/person4.webp" alt="person4">
+              <div class="about-person person4">
+                <h3>Person4</h3>
+                <p>Sub title</p>
+              </div>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="slide__content about-person-container">
+              <img src="build/img/person5.webp" alt="person5">
+              <div class="about-person person5">
+                <h3>Person5</h3>
+                <p>Sub title</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+          < </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> > </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<?php
+
+$script = '
+<!-- Glide.js -->
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script src="build/js/customCarrousel.js"></script>
+'
+
+?>

@@ -1,0 +1,1 @@
+const config={type:"carousel",startAt:0,perView:1,gap:0,focusAt:"center",autoplay:5e3,animationDuration:1e3,hoverpause:!1};new Glide(".glide",config).mount();

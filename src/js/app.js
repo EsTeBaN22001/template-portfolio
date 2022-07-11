@@ -6,7 +6,7 @@ if(document.querySelector('.navbar')){
   const navbarContainer = document.querySelector('.navbar-nav')
 
   menuButton.addEventListener('click', function(){
-    navbarContainer.classList.toggle('showNav');
+    navbarContainer.classList.toggle('showNav')
   })
 
   // Sticky menu
@@ -15,7 +15,7 @@ if(document.querySelector('.navbar')){
   const navbar = document.querySelector('.navbar')
 
   const sticky = navbar.offsetTop;
-
+  
   function stickyMenu(){
     if(window.pageYOffset >= sticky){
       navbar.classList.add('sticky')
