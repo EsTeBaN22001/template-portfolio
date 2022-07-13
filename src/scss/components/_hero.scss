@@ -24,6 +24,21 @@
     p{
       color: v.$white;
     }
+    .social-networks{
+      a{
+        color: v.$white;
+        font-size: 3rem;
+        margin: 1rem .5rem;
+
+        &:hover{
+          .fa-twitter:hover{color: v.$twitter;}
+          .fa-instagram:hover{color: v.$instagram;}
+          .fa-youtube:hover{color: v.$youtube}
+          .fa-whatsapp:hover{color: v.$whatsapp}
+          .fa-facebook-square:hover{color: v.$facebook}
+        }
+      }
+    }
   }
 
   .hero-img {

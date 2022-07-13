@@ -228,7 +228,6 @@
     </form>
   </div>
 </section>
-
 <?php
 
 $script = '

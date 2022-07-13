@@ -23,6 +23,13 @@
 			<div class="hero-text-content container-sm">
 				<h1><?= $title; ?></h1>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+				<div class="social-networks">
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="fa-brands fa-youtube"></i></a>
+					<a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+					<a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="hero-img"></div>
@@ -56,8 +63,12 @@
 
 	<?php echo $content; ?>
 
-	<!-- Jquery -->
-	<script src="build/js/jquery.min.js"></script>
+	<footer class="footer-container section">
+		<div class="footer">
+			<p>Todos los derechos reservados &copy;</p>
+		</div>
+	</footer>
+
 	<!-- Font awesome -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<!-- Custom js -->
